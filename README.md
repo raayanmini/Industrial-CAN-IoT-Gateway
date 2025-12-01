@@ -9,7 +9,6 @@ This repository contains a demo **Industrial CAN + IoT Gateway** system built wi
 The goal is to collect temperature data from CAN nodes, display it locally on a TFT screen, and push it to a remote server via Wi-Fi (ESP8266).  
 Both projects are developed using **STM32CubeIDE** and the **MCP2515** SPI CAN controller.
 
----
 
 ## 1. System Overview
 
@@ -37,7 +36,6 @@ Both projects are developed using **STM32CubeIDE** and the **MCP2515** SPI CAN c
   - Samples the LM35
   - Sends a CAN response frame with the temperature value in `data[0]`
 
----
 
 ## 2. Repository Structure
 
@@ -87,7 +85,6 @@ CAN_IOT_Gateway/
 
 > The node ID `NODE` is computed from the three DIP inputs in firmware. Adjust the DIP switch orientation and pull-ups as needed for your hardware.
 
-* * *
 
 ### 3.2 IOT\_GATEWAY (STM32F401RBT6)
 
@@ -204,7 +201,6 @@ Make sure the selected MCUs are:
 4.  Confirm the debug configuration if prompted, then let STM32CubeIDE program the MCU.
     
 
-* * *
 
 ## 5\. Operating the Demo
 
@@ -245,9 +241,6 @@ Make sure the selected MCUs are:
         -   Calls the Wi-Fi task to send an HTTP GET to the configured server through the ESP8266.
             
 
-##
-
-## 📸 Demo
 
 [![Watch the Demo Video](https://img.youtube.com/vi/mkOGOZv5ZoA/maxresdefault.jpg)](https://www.youtube.com/watch?v=mkOGOZv5ZoA)
 

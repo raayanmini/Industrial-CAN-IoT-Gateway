@@ -41,7 +41,7 @@ Both projects are developed using **STM32CubeIDE** and the **MCP2515** SPI CAN c
 
 ```
 Industrial-CAN-IoT-Gateway/
-├─ IOT_GATEWAY/   # STM32F401RBT6 gateway project (STM32CubeIDE)
+├─ CAN-IOT-GATEWAY/   # STM32F401RBT6 gateway project (STM32CubeIDE)
 │  ├─ Core/
 │  │  ├─ Src/
 │  │  │  ├─ main.c          # Gateway application logic
@@ -54,7 +54,7 @@ Industrial-CAN-IoT-Gateway/
 │  ├─ IOT_GATEWAY.ioc       # STM32CubeMX configuration
 │  └─ .project/.cproject/.settings/
 │
-└─ IOT_node/      # STM32G030F6Px node project (STM32CubeIDE)
+└─ CAN_IOT_NODE0/      # STM32G030F6Px node project (STM32CubeIDE)
    ├─ Core/
    │  ├─ Src/
    │  │  ├─ main.c          # Node application logic (ADC + CAN)

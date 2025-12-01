@@ -40,7 +40,7 @@ Both projects are developed using **STM32CubeIDE** and the **MCP2515** SPI CAN c
 ## 2. Repository Structure
 
 ```
-CAN_IOT_Gateway/
+Industrial-CAN-IoT-Gateway/
 ├─ IOT_GATEWAY/   # STM32F401RBT6 gateway project (STM32CubeIDE)
 │  ├─ Core/
 │  │  ├─ Src/
